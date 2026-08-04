@@ -17,10 +17,10 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='your_name',
-    maintainer_email='your_email@todo.todo',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    maintainer='AbdAllahAlhelo',
+    maintainer_email='abdallah.alhelo@study.thws.de',
+    description='launch the simulation starting state',
+    license='Abd',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [

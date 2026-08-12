@@ -1,0 +1,175 @@
+[0.000000] (-) TimerEvent: {}
+[0.000290] (-) JobUnselected: {'identifier': 'aws_robomaker_hospital_world'}
+[0.000329] (-) JobUnselected: {'identifier': 'gazebo_map_creator'}
+[0.000350] (-) JobUnselected: {'identifier': 'gazebo_map_creator_interface'}
+[0.000368] (-) JobUnselected: {'identifier': 'thesis_sim'}
+[0.000398] (gazebo_ros2_2dmap_plugin) JobQueued: {'identifier': 'gazebo_ros2_2dmap_plugin', 'dependencies': OrderedDict()}
+[0.000419] (gazebo_ros2_2dmap_plugin) JobStarted: {'identifier': 'gazebo_ros2_2dmap_plugin'}
+[0.006949] (gazebo_ros2_2dmap_plugin) JobProgress: {'identifier': 'gazebo_ros2_2dmap_plugin', 'progress': 'cmake'}
+[0.007632] (gazebo_ros2_2dmap_plugin) JobProgress: {'identifier': 'gazebo_ros2_2dmap_plugin', 'progress': 'build'}
+[0.008237] (gazebo_ros2_2dmap_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/iamalhelo103/thesis_ws/build/gazebo_ros2_2dmap_plugin', '--', '-j16', '-l16'], 'cwd': '/home/iamalhelo103/thesis_ws/build/gazebo_ros2_2dmap_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'iamalhelo103'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/lib:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator/lib:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/iamalhelo103'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/iamalhelo103/thesis_ws/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '21379'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/iamalhelo103/miniconda3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/iamalhelo103/thesis_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'iamalhelo103'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'iamalhelo103'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models::/home/iamalhelo103/thesis_ws/install/aws_robomaker_hospital_world/share/aws_robomaker_hospital_world/models:/home/iamalhelo103/thesis_ws/src/aws-robomaker-hospital-world/fuel_models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/iamalhelo103/miniconda3/condabin:/home/iamalhelo103/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Abdallah-PC:@/tmp/.ICE-unix/2213,unix/Abdallah-PC:/tmp/.ICE-unix/2213'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a72b2984_0a6c_4865_adb9_8739fec846d7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.166'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/iamalhelo103/thesis_ws/install/thesis_sim:/home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator_interface:/home/iamalhelo103/thesis_ws/install/aws_robomaker_hospital_world:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/iamalhelo103/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('_CONDA_EXE', '/home/iamalhelo103/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/iamalhelo103/thesis_ws/build/gazebo_ros2_2dmap_plugin'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('CONDA_EXE', '/home/iamalhelo103/miniconda3/bin/conda'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/iamalhelo103/thesis_ws/build/thesis_sim:/home/iamalhelo103/thesis_ws/install/thesis_sim/lib/python3.10/site-packages:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator_interface:/home/iamalhelo103/thesis_ws/install/aws_robomaker_hospital_world:/home/iamalhelo103/thesis_ws/install/thesis_sim:/opt/ros/humble')]), 'shell': False}
+[0.057682] (gazebo_ros2_2dmap_plugin) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gazebo_2Dmap_plugin\x1b[0m\n'}
+[0.092739] (gazebo_ros2_2dmap_plugin) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_2Dmap_plugin.dir/src/gazebo_2Dmap_plugin.cpp.o\x1b[0m\n'}
+[0.099371] (-) TimerEvent: {}
+[0.199617] (-) TimerEvent: {}
+[0.300223] (-) TimerEvent: {}
+[0.400843] (-) TimerEvent: {}
+[0.501119] (-) TimerEvent: {}
+[0.601400] (-) TimerEvent: {}
+[0.701940] (-) TimerEvent: {}
+[0.802300] (-) TimerEvent: {}
+[0.902581] (-) TimerEvent: {}
+[1.002874] (-) TimerEvent: {}
+[1.103149] (-) TimerEvent: {}
+[1.203432] (-) TimerEvent: {}
+[1.303739] (-) TimerEvent: {}
+[1.404071] (-) TimerEvent: {}
+[1.504356] (-) TimerEvent: {}
+[1.604635] (-) TimerEvent: {}
+[1.704913] (-) TimerEvent: {}
+[1.805268] (-) TimerEvent: {}
+[1.905562] (-) TimerEvent: {}
+[2.005841] (-) TimerEvent: {}
+[2.106109] (-) TimerEvent: {}
+[2.206371] (-) TimerEvent: {}
+[2.306641] (-) TimerEvent: {}
+[2.406945] (-) TimerEvent: {}
+[2.507230] (-) TimerEvent: {}
+[2.607516] (-) TimerEvent: {}
+[2.707792] (-) TimerEvent: {}
+[2.808395] (-) TimerEvent: {}
+[2.908696] (-) TimerEvent: {}
+[3.008978] (-) TimerEvent: {}
+[3.109273] (-) TimerEvent: {}
+[3.209540] (-) TimerEvent: {}
+[3.309807] (-) TimerEvent: {}
+[3.410123] (-) TimerEvent: {}
+[3.510403] (-) TimerEvent: {}
+[3.610672] (-) TimerEvent: {}
+[3.710935] (-) TimerEvent: {}
+[3.811442] (-) TimerEvent: {}
+[3.911742] (-) TimerEvent: {}
+[4.012056] (-) TimerEvent: {}
+[4.112337] (-) TimerEvent: {}
+[4.212621] (-) TimerEvent: {}
+[4.312902] (-) TimerEvent: {}
+[4.413190] (-) TimerEvent: {}
+[4.513472] (-) TimerEvent: {}
+[4.613744] (-) TimerEvent: {}
+[4.714032] (-) TimerEvent: {}
+[4.814329] (-) TimerEvent: {}
+[4.914612] (-) TimerEvent: {}
+[5.014893] (-) TimerEvent: {}
+[5.115175] (-) TimerEvent: {}
+[5.215453] (-) TimerEvent: {}
+[5.315738] (-) TimerEvent: {}
+[5.416055] (-) TimerEvent: {}
+[5.516340] (-) TimerEvent: {}
+[5.616625] (-) TimerEvent: {}
+[5.716908] (-) TimerEvent: {}
+[5.817197] (-) TimerEvent: {}
+[5.917480] (-) TimerEvent: {}
+[6.018138] (-) TimerEvent: {}
+[6.118686] (-) TimerEvent: {}
+[6.218986] (-) TimerEvent: {}
+[6.319307] (-) TimerEvent: {}
+[6.419586] (-) TimerEvent: {}
+[6.519878] (-) TimerEvent: {}
+[6.620702] (-) TimerEvent: {}
+[6.721000] (-) TimerEvent: {}
+[6.821298] (-) TimerEvent: {}
+[6.921582] (-) TimerEvent: {}
+[7.021866] (-) TimerEvent: {}
+[7.122145] (-) TimerEvent: {}
+[7.222422] (-) TimerEvent: {}
+[7.322699] (-) TimerEvent: {}
+[7.422975] (-) TimerEvent: {}
+[7.523436] (-) TimerEvent: {}
+[7.623726] (-) TimerEvent: {}
+[7.724009] (-) TimerEvent: {}
+[7.824308] (-) TimerEvent: {}
+[7.925123] (-) TimerEvent: {}
+[8.025409] (-) TimerEvent: {}
+[8.125696] (-) TimerEvent: {}
+[8.225985] (-) TimerEvent: {}
+[8.326321] (-) TimerEvent: {}
+[8.426591] (-) TimerEvent: {}
+[8.526867] (-) TimerEvent: {}
+[8.627278] (-) TimerEvent: {}
+[8.727685] (-) TimerEvent: {}
+[8.827972] (-) TimerEvent: {}
+[8.928273] (-) TimerEvent: {}
+[9.028553] (-) TimerEvent: {}
+[9.128820] (-) TimerEvent: {}
+[9.229102] (-) TimerEvent: {}
+[9.329387] (-) TimerEvent: {}
+[9.429668] (-) TimerEvent: {}
+[9.530275] (-) TimerEvent: {}
+[9.630888] (-) TimerEvent: {}
+[9.731170] (-) TimerEvent: {}
+[9.831452] (-) TimerEvent: {}
+[9.931735] (-) TimerEvent: {}
+[10.032018] (-) TimerEvent: {}
+[10.132333] (-) TimerEvent: {}
+[10.232679] (-) TimerEvent: {}
+[10.333274] (-) TimerEvent: {}
+[10.434016] (-) TimerEvent: {}
+[10.534411] (-) TimerEvent: {}
+[10.634716] (-) TimerEvent: {}
+[10.735022] (-) TimerEvent: {}
+[10.835359] (-) TimerEvent: {}
+[10.935664] (-) TimerEvent: {}
+[11.035942] (-) TimerEvent: {}
+[11.136234] (-) TimerEvent: {}
+[11.236628] (-) TimerEvent: {}
+[11.336918] (-) TimerEvent: {}
+[11.437201] (-) TimerEvent: {}
+[11.537463] (-) TimerEvent: {}
+[11.637728] (-) TimerEvent: {}
+[11.738001] (-) TimerEvent: {}
+[11.838818] (-) TimerEvent: {}
+[11.939102] (-) TimerEvent: {}
+[12.039380] (-) TimerEvent: {}
+[12.139662] (-) TimerEvent: {}
+[12.239943] (-) TimerEvent: {}
+[12.340234] (-) TimerEvent: {}
+[12.440512] (-) TimerEvent: {}
+[12.541116] (-) TimerEvent: {}
+[12.641405] (-) TimerEvent: {}
+[12.741697] (-) TimerEvent: {}
+[12.770016] (gazebo_ros2_2dmap_plugin) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_2Dmap_plugin.so\x1b[0m\n'}
+[12.841829] (-) TimerEvent: {}
+[12.942103] (-) TimerEvent: {}
+[13.042403] (-) TimerEvent: {}
+[13.142743] (-) TimerEvent: {}
+[13.168272] (gazebo_ros2_2dmap_plugin) StdoutLine: {'line': b'[100%] Built target gazebo_2Dmap_plugin\n'}
+[13.181305] (gazebo_ros2_2dmap_plugin) CommandEnded: {'returncode': 0}
+[13.181879] (gazebo_ros2_2dmap_plugin) JobProgress: {'identifier': 'gazebo_ros2_2dmap_plugin', 'progress': 'install'}
+[13.190566] (gazebo_ros2_2dmap_plugin) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/iamalhelo103/thesis_ws/build/gazebo_ros2_2dmap_plugin'], 'cwd': '/home/iamalhelo103/thesis_ws/build/gazebo_ros2_2dmap_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'iamalhelo103'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/lib:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator/lib:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/iamalhelo103'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/iamalhelo103/thesis_ws/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '21379'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/iamalhelo103/miniconda3'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/iamalhelo103/thesis_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'iamalhelo103'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'iamalhelo103'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models::/home/iamalhelo103/thesis_ws/install/aws_robomaker_hospital_world/share/aws_robomaker_hospital_world/models:/home/iamalhelo103/thesis_ws/src/aws-robomaker-hospital-world/fuel_models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/iamalhelo103/miniconda3/condabin:/home/iamalhelo103/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Abdallah-PC:@/tmp/.ICE-unix/2213,unix/Abdallah-PC:/tmp/.ICE-unix/2213'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a72b2984_0a6c_4865_adb9_8739fec846d7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.166'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/iamalhelo103/thesis_ws/install/thesis_sim:/home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator_interface:/home/iamalhelo103/thesis_ws/install/aws_robomaker_hospital_world:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/iamalhelo103/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('_CONDA_EXE', '/home/iamalhelo103/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/iamalhelo103/thesis_ws/build/gazebo_ros2_2dmap_plugin'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('CONDA_EXE', '/home/iamalhelo103/miniconda3/bin/conda'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/iamalhelo103/thesis_ws/build/thesis_sim:/home/iamalhelo103/thesis_ws/install/thesis_sim/lib/python3.10/site-packages:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator_interface:/home/iamalhelo103/thesis_ws/install/aws_robomaker_hospital_world:/home/iamalhelo103/thesis_ws/install/thesis_sim:/opt/ros/humble')]), 'shell': False}
+[13.198663] (gazebo_ros2_2dmap_plugin) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.198848] (gazebo_ros2_2dmap_plugin) StdoutLine: {'line': b'-- Installing: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/lib/libgazebo_2Dmap_plugin.so\n'}
+[13.203111] (gazebo_ros2_2dmap_plugin) StdoutLine: {'line': b'-- Set runtime path of "/home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/lib/libgazebo_2Dmap_plugin.so" to ""\n'}
+[13.203240] (gazebo_ros2_2dmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/include\n'}
+[13.203336] (gazebo_ros2_2dmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/include/gazebo_2Dmap_plugin.h\n'}
+[13.203404] (gazebo_ros2_2dmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/include/common.h\n'}
+[13.203491] (gazebo_ros2_2dmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/gazebo_ros2_2dmap_plugin/launch\n'}
+[13.203552] (gazebo_ros2_2dmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/gazebo_ros2_2dmap_plugin/launch/generate_map.launch.py\n'}
+[13.203631] (gazebo_ros2_2dmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/lib/gazebo_ros2_2dmap_plugin/generate_map.sh\n'}
+[13.203714] (gazebo_ros2_2dmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_2dmap_plugin\n'}
+[13.203781] (gazebo_ros2_2dmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_2dmap_plugin\n'}
+[13.203857] (gazebo_ros2_2dmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/gazebo_ros2_2dmap_plugin/environment/ament_prefix_path.sh\n'}
+[13.203913] (gazebo_ros2_2dmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/gazebo_ros2_2dmap_plugin/environment/ament_prefix_path.dsv\n'}
+[13.203968] (gazebo_ros2_2dmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/gazebo_ros2_2dmap_plugin/environment/path.sh\n'}
+[13.204028] (gazebo_ros2_2dmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/gazebo_ros2_2dmap_plugin/environment/path.dsv\n'}
+[13.204092] (gazebo_ros2_2dmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/gazebo_ros2_2dmap_plugin/local_setup.bash\n'}
+[13.204155] (gazebo_ros2_2dmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/gazebo_ros2_2dmap_plugin/local_setup.sh\n'}
+[13.204213] (gazebo_ros2_2dmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/gazebo_ros2_2dmap_plugin/local_setup.zsh\n'}
+[13.204277] (gazebo_ros2_2dmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/gazebo_ros2_2dmap_plugin/local_setup.dsv\n'}
+[13.204325] (gazebo_ros2_2dmap_plugin) StdoutLine: {'line': b'-- Installing: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/gazebo_ros2_2dmap_plugin/package.dsv\n'}
+[13.204369] (gazebo_ros2_2dmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/ament_index/resource_index/packages/gazebo_ros2_2dmap_plugin\n'}
+[13.204413] (gazebo_ros2_2dmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/gazebo_ros2_2dmap_plugin/cmake/gazebo_ros2_2dmap_pluginConfig.cmake\n'}
+[13.204464] (gazebo_ros2_2dmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/gazebo_ros2_2dmap_plugin/cmake/gazebo_ros2_2dmap_pluginConfig-version.cmake\n'}
+[13.204509] (gazebo_ros2_2dmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/gazebo_ros2_2dmap_plugin/package.xml\n'}
+[13.205875] (gazebo_ros2_2dmap_plugin) CommandEnded: {'returncode': 0}
+[13.220581] (gazebo_ros2_2dmap_plugin) JobEnded: {'identifier': 'gazebo_ros2_2dmap_plugin', 'rc': 0}
+[13.221058] (-) EventReactorShutdown: {}

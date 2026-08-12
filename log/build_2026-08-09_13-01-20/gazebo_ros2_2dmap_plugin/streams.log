@@ -1,0 +1,114 @@
+[0.047s] Invoking command in '/home/iamalhelo103/thesis_ws/build/gazebo_ros2_2dmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iamalhelo103/thesis_ws/install/thesis_sim:/opt/ros/humble /usr/bin/cmake --build /home/iamalhelo103/thesis_ws/build/gazebo_ros2_2dmap_plugin -- -j16 -l16
+[0.075s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.177s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.200s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.202s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.207s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.214s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.223s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.247s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.248s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.347s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.385s] -- Found gazebo_dev: 3.9.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[0.409s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.432s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.433s] -- Looking for ignition-math6 -- found version 6.16.0
+[0.438s] -- Searching for dependencies of ignition-math6
+[0.439s] -- Looking for OGRE...
+[0.444s] -- Found Ogre Ghadamon (1.9.0)
+[0.444s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.452s] -- Looking for OGRE_Paging...
+[0.452s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.452s] -- Looking for OGRE_Terrain...
+[0.452s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.452s] -- Looking for OGRE_Property...
+[0.452s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.452s] -- Looking for OGRE_RTShaderSystem...
+[0.452s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.452s] -- Looking for OGRE_Volume...
+[0.452s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.452s] -- Looking for OGRE_Overlay...
+[0.452s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.545s] -- Looking for ignition-math6 -- found version 6.16.0
+[0.545s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.546s] -- Searching for dependencies of ignition-transport8
+[0.564s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.576s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.581s] -- Checking for module 'libzmq >= 4'
+[0.594s] --   Found libzmq , version 4.3.4
+[0.634s] -- Checking for module 'uuid'
+[0.648s] --   Found uuid, version 2.37.2
+[0.681s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.681s] -- Searching for dependencies of ignition-msgs5
+[0.700s] -- Looking for ignition-math6 -- found version 6.16.0
+[0.705s] -- Checking for module 'tinyxml2'
+[0.718s] --   Found tinyxml2, version 9.0.0
+[0.751s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.752s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.752s] -- Searching for dependencies of ignition-common3
+[0.752s] -- Looking for dlfcn.h - found
+[0.752s] -- Looking for libdl - found
+[0.762s] -- Searching for <ignition-common3> component [graphics]
+[0.762s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.763s] -- Searching for dependencies of ignition-common3-graphics
+[0.763s] -- Looking for ignition-math6 -- found version 6.16.0
+[0.764s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.764s] -- Searching for dependencies of ignition-fuel_tools4
+[0.802s] -- Checking for module 'jsoncpp'
+[0.815s] --   Found jsoncpp, version 1.9.5
+[0.852s] -- Checking for module 'libzip'
+[0.865s] --   Found libzip, version 1.7.3
+[0.897s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.898s] -- Looking for ignition-math6 -- found version 6.16.0
+[0.898s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.899s] -- Gazebo version: 11.10
+[0.900s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.912s] -- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.937s] -- Found std_srvs: 4.9.2 (/opt/ros/humble/share/std_srvs/cmake)
+[0.951s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.008s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.012s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.012s] -- Configured cppcheck include dirs: /home/iamalhelo103/thesis_ws/src/gazebo_ros2_2Dmap_plugin/include
+[1.012s] -- Configured cppcheck exclude dirs and/or files: 
+[1.015s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.015s] -- Configured cpplint exclude dirs and/or files: 
+[1.016s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.017s] -- Added test 'lint_cmake' to check CMake code style
+[1.017s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.020s] -- Added test 'uncrustify' to check C / C++ code style
+[1.020s] -- Configured uncrustify additional arguments: 
+[1.021s] -- Added test 'xmllint' to check XML markup files
+[1.022s] -- Configuring done
+[1.045s] -- Generating done
+[1.049s] -- Build files have been written to: /home/iamalhelo103/thesis_ws/build/gazebo_ros2_2dmap_plugin
+[1.084s] [35m[1mConsolidate compiler generated dependencies of target gazebo_2Dmap_plugin[0m
+[1.127s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_2Dmap_plugin.dir/src/gazebo_2Dmap_plugin.cpp.o[0m
+[14.767s] [100%] [32m[1mLinking CXX shared library libgazebo_2Dmap_plugin.so[0m
+[15.193s] [100%] Built target gazebo_2Dmap_plugin
+[15.206s] Invoked command in '/home/iamalhelo103/thesis_ws/build/gazebo_ros2_2dmap_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iamalhelo103/thesis_ws/install/thesis_sim:/opt/ros/humble /usr/bin/cmake --build /home/iamalhelo103/thesis_ws/build/gazebo_ros2_2dmap_plugin -- -j16 -l16
+[15.217s] Invoking command in '/home/iamalhelo103/thesis_ws/build/gazebo_ros2_2dmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iamalhelo103/thesis_ws/install/thesis_sim:/opt/ros/humble /usr/bin/cmake --install /home/iamalhelo103/thesis_ws/build/gazebo_ros2_2dmap_plugin
+[15.225s] -- Install configuration: ""
+[15.225s] -- Installing: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/lib/libgazebo_2Dmap_plugin.so
+[15.229s] -- Set runtime path of "/home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/lib/libgazebo_2Dmap_plugin.so" to ""
+[15.229s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/include
+[15.229s] -- Installing: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/include/gazebo_2Dmap_plugin.h
+[15.229s] -- Installing: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/include/common.h
+[15.230s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/gazebo_ros2_2dmap_plugin/launch
+[15.230s] -- Installing: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/gazebo_ros2_2dmap_plugin/launch/generate_map.launch.py
+[15.230s] -- Installing: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/lib/gazebo_ros2_2dmap_plugin/generate_map.sh
+[15.230s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_2dmap_plugin
+[15.230s] -- Installing: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_2dmap_plugin
+[15.231s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/gazebo_ros2_2dmap_plugin/environment/ament_prefix_path.sh
+[15.231s] -- Installing: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/gazebo_ros2_2dmap_plugin/environment/ament_prefix_path.dsv
+[15.231s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/gazebo_ros2_2dmap_plugin/environment/path.sh
+[15.231s] -- Installing: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/gazebo_ros2_2dmap_plugin/environment/path.dsv
+[15.231s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/gazebo_ros2_2dmap_plugin/local_setup.bash
+[15.231s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/gazebo_ros2_2dmap_plugin/local_setup.sh
+[15.231s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/gazebo_ros2_2dmap_plugin/local_setup.zsh
+[15.231s] -- Installing: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/gazebo_ros2_2dmap_plugin/local_setup.dsv
+[15.231s] -- Installing: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/gazebo_ros2_2dmap_plugin/package.dsv
+[15.231s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/ament_index/resource_index/packages/gazebo_ros2_2dmap_plugin
+[15.231s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/gazebo_ros2_2dmap_plugin/cmake/gazebo_ros2_2dmap_pluginConfig.cmake
+[15.232s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/gazebo_ros2_2dmap_plugin/cmake/gazebo_ros2_2dmap_pluginConfig-version.cmake
+[15.232s] -- Installing: /home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/share/gazebo_ros2_2dmap_plugin/package.xml
+[15.234s] Invoked command in '/home/iamalhelo103/thesis_ws/build/gazebo_ros2_2dmap_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iamalhelo103/thesis_ws/install/thesis_sim:/opt/ros/humble /usr/bin/cmake --install /home/iamalhelo103/thesis_ws/build/gazebo_ros2_2dmap_plugin

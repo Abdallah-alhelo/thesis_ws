@@ -1,0 +1,11 @@
+[0.000000] (-) TimerEvent: {}
+[0.000131] (-) JobUnselected: {'identifier': 'aws_robomaker_hospital_world'}
+[0.000170] (-) JobUnselected: {'identifier': 'explore_lite_msgs'}
+[0.000193] (-) JobUnselected: {'identifier': 'gazebo_map_creator'}
+[0.000212] (-) JobUnselected: {'identifier': 'gazebo_map_creator_interface'}
+[0.000228] (-) JobUnselected: {'identifier': 'multirobot_map_merge'}
+[0.000244] (-) JobUnselected: {'identifier': 'thesis_sim'}
+[0.000262] (explore_lite) JobQueued: {'identifier': 'explore_lite', 'dependencies': OrderedDict([('explore_lite_msgs', '/home/iamalhelo103/thesis_ws/install/explore_lite_msgs')])}
+[0.000779] (explore_lite) JobStarted: {'identifier': 'explore_lite'}
+[0.009896] (explore_lite) JobEnded: {'identifier': 'explore_lite', 'rc': 1}
+[0.020298] (-) EventReactorShutdown: {}

@@ -1,0 +1,1 @@
+/home/iamalhelo103/thesis_ws/build/gazebo_map_creator_interface/ament_cmake_environment_hooks/local_setup.sh

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "gazebo_map_creator_interface__py",
+		"source" : "/home/iamalhelo103/thesis_ws/build/gazebo_map_creator_interface/gazebo_map_creator_interface__py"
+	}
+}

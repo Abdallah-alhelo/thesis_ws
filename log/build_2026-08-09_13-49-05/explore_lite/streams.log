@@ -1,0 +1,107 @@
+[0.008s] Invoking command in '/home/iamalhelo103/thesis_ws/build/explore_lite': AMENT_PREFIX_PATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs:/home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator_interface:/home/iamalhelo103/thesis_ws/install/aws_robomaker_hospital_world:/home/iamalhelo103/thesis_ws/install/thesis_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs/lib:/home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/lib:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator/lib:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/iamalhelo103/thesis_ws/src/m-explore-ros2/explore -DCMAKE_INSTALL_PREFIX=/home/iamalhelo103/thesis_ws/install/explore_lite
+[0.055s] -- The C compiler identification is GNU 11.4.0
+[0.100s] -- The CXX compiler identification is GNU 11.4.0
+[0.105s] -- Detecting C compiler ABI info
+[0.165s] -- Detecting C compiler ABI info - done
+[0.170s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.170s] -- Detecting C compile features
+[0.170s] -- Detecting C compile features - done
+[0.172s] -- Detecting CXX compiler ABI info
+[0.239s] -- Detecting CXX compiler ABI info - done
+[0.244s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.244s] -- Detecting CXX compile features
+[0.244s] -- Detecting CXX compile features - done
+[0.245s] -- BuilD for ROS2: humble
+[0.247s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.365s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.442s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.482s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.487s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.495s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.505s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.519s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.557s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.560s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.641s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.667s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.705s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.714s] -- Looking for pthread.h
+[0.775s] -- Looking for pthread.h - found
+[0.775s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.837s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.837s] -- Found Threads: TRUE  
+[0.881s] -- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.908s] -- Found tf2_ros: 0.25.22 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.012s] -- Found tf2_geometry_msgs: 0.25.22 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.029s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.030s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.030s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.033s] -- Found nav2_msgs: 1.1.20 (/opt/ros/humble/share/nav2_msgs/cmake)
+[1.070s] -- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)
+[1.087s] -- Found visualization_msgs: 4.9.2 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.106s] -- Found nav2_costmap_2d: 1.1.20 (/opt/ros/humble/share/nav2_costmap_2d/cmake)
+[1.218s] -- Found explore_lite_msgs: 1.0.0 (/home/iamalhelo103/thesis_ws/install/explore_lite_msgs/share/explore_lite_msgs/cmake)
+[1.226s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.290s] -- Found ament_cmake_gtest: 1.3.14 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.293s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.301s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.301s] -- Configured cppcheck include dirs: /home/iamalhelo103/thesis_ws/src/m-explore-ros2/explore/include;$<BUILD_INTERFACE:/home/iamalhelo103/thesis_ws/src/m-explore-ros2/explore/include>
+[1.301s] -- Configured cppcheck exclude dirs and/or files: 
+[1.301s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.302s] -- Added test 'lint_cmake' to check CMake code style
+[1.302s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.304s] -- Added test 'uncrustify' to check C / C++ code style
+[1.304s] -- Configured uncrustify additional arguments: 
+[1.304s] -- Added test 'xmllint' to check XML markup files
+[1.306s] -- Configuring done
+[1.351s] -- Generating done
+[1.357s] -- Build files have been written to: /home/iamalhelo103/thesis_ws/build/explore_lite
+[1.368s] Invoked command in '/home/iamalhelo103/thesis_ws/build/explore_lite' returned '0': AMENT_PREFIX_PATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs:/home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator_interface:/home/iamalhelo103/thesis_ws/install/aws_robomaker_hospital_world:/home/iamalhelo103/thesis_ws/install/thesis_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs/lib:/home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/lib:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator/lib:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/iamalhelo103/thesis_ws/src/m-explore-ros2/explore -DCMAKE_INSTALL_PREFIX=/home/iamalhelo103/thesis_ws/install/explore_lite
+[1.369s] Invoking command in '/home/iamalhelo103/thesis_ws/build/explore_lite': AMENT_PREFIX_PATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs:/home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator_interface:/home/iamalhelo103/thesis_ws/install/aws_robomaker_hospital_world:/home/iamalhelo103/thesis_ws/install/thesis_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs/lib:/home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/lib:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator/lib:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/iamalhelo103/thesis_ws/build/explore_lite -- -j16 -l16
+[1.415s] [ 50%] [32mBuilding CXX object CMakeFiles/explore.dir/src/costmap_client.cpp.o[0m
+[1.416s] [ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.416s] [ 50%] [32mBuilding CXX object CMakeFiles/explore.dir/src/explore.cpp.o[0m
+[1.416s] [ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.416s] [ 50%] [32mBuilding CXX object CMakeFiles/explore.dir/src/frontier_search.cpp.o[0m
+[1.900s] [ 60%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.937s] [ 60%] Built target gtest_main
+[3.639s] [ 70%] [32m[1mLinking CXX static library libgtest.a[0m
+[3.696s] [ 70%] Built target gtest
+[3.717s] [ 80%] [32mBuilding CXX object CMakeFiles/test_explore.dir/test/test_explore.cpp.o[0m
+[4.301s] [ 90%] [32m[1mLinking CXX executable test_explore[0m
+[4.429s] [ 90%] Built target test_explore
+[11.446s] [100%] [32m[1mLinking CXX executable explore[0m
+[12.321s] [100%] Built target explore
+[12.335s] Invoked command in '/home/iamalhelo103/thesis_ws/build/explore_lite' returned '0': AMENT_PREFIX_PATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs:/home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator_interface:/home/iamalhelo103/thesis_ws/install/aws_robomaker_hospital_world:/home/iamalhelo103/thesis_ws/install/thesis_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs/lib:/home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/lib:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator/lib:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/iamalhelo103/thesis_ws/build/explore_lite -- -j16 -l16
+[12.336s] Invoking command in '/home/iamalhelo103/thesis_ws/build/explore_lite': AMENT_PREFIX_PATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs:/home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator_interface:/home/iamalhelo103/thesis_ws/install/aws_robomaker_hospital_world:/home/iamalhelo103/thesis_ws/install/thesis_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs/lib:/home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/lib:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator/lib:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/iamalhelo103/thesis_ws/build/explore_lite
+[12.342s] -- Install configuration: ""
+[12.342s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/include/explore/
+[12.342s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/include/explore//costmap_client.h
+[12.343s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/include/explore//explore.h
+[12.343s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/include/explore//costmap_tools.h
+[12.343s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/include/explore//frontier_search.h
+[12.343s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/config
+[12.343s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/config/params.yaml
+[12.343s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/config/params_costmap.yaml
+[12.343s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/launch
+[12.343s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/launch/explore.launch.py
+[12.343s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/lib/explore_lite/explore
+[12.351s] -- Set runtime path of "/home/iamalhelo103/thesis_ws/install/explore_lite/lib/explore_lite/explore" to ""
+[12.351s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite
+[12.351s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite
+[12.351s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh
+[12.351s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv
+[12.351s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/environment/path.sh
+[12.351s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/environment/path.dsv
+[12.351s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/local_setup.bash
+[12.352s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/local_setup.sh
+[12.352s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/local_setup.zsh
+[12.352s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/local_setup.dsv
+[12.352s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/package.dsv
+[12.352s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/share/ament_index/resource_index/packages/explore_lite
+[12.352s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.352s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.353s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake
+[12.353s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake
+[12.353s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/package.xml
+[12.355s] Invoked command in '/home/iamalhelo103/thesis_ws/build/explore_lite' returned '0': AMENT_PREFIX_PATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs:/home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator_interface:/home/iamalhelo103/thesis_ws/install/aws_robomaker_hospital_world:/home/iamalhelo103/thesis_ws/install/thesis_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs/lib:/home/iamalhelo103/thesis_ws/install/gazebo_ros2_2dmap_plugin/lib:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator/lib:/home/iamalhelo103/thesis_ws/install/gazebo_map_creator_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/iamalhelo103/thesis_ws/build/explore_lite

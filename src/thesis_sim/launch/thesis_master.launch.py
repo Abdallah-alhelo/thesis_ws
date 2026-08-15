@@ -60,7 +60,7 @@ def generate_launch_description():
             '-file', tb3_model_sdf_path,
             '-x', '0.0',
             '-y', '14.4',
-            '-z', '0.5', # Bumped to 1.0 to guarantee a safe drop above the floor
+            '-z', '0.5', # Bumped to 0.5 to guarantee a safe drop above the floor
             '-Y', '-1.6'
         ],
         output='screen',

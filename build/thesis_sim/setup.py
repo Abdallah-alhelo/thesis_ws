@@ -1,1 +1,0 @@
-/home/iamalhelo103/thesis_ws/src/thesis_sim/setup.py

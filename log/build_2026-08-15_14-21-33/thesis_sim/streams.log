@@ -1,0 +1,29 @@
+[0.640s] Invoking command in '/home/iamalhelo103/thesis_ws/build/thesis_sim': PYTHONPATH=/home/iamalhelo103/thesis_ws/build/thesis_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/iamalhelo103/thesis_ws/install/thesis_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/iamalhelo103/thesis_ws/build/thesis_sim/build
+[0.848s] running develop
+[0.982s] Removing /home/iamalhelo103/thesis_ws/install/thesis_sim/lib/python3.10/site-packages/thesis-sim.egg-link (link to .)
+[1.011s] Invoked command in '/home/iamalhelo103/thesis_ws/build/thesis_sim' returned '0': PYTHONPATH=/home/iamalhelo103/thesis_ws/build/thesis_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/iamalhelo103/thesis_ws/install/thesis_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/iamalhelo103/thesis_ws/build/thesis_sim/build
+[1.013s] Invoking command in '/home/iamalhelo103/thesis_ws/src/thesis_sim': PYTHONPATH=/home/iamalhelo103/thesis_ws/build/thesis_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/iamalhelo103/thesis_ws/install/thesis_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/thesis_sim build --build-base /home/iamalhelo103/thesis_ws/build/thesis_sim/build install --record /home/iamalhelo103/thesis_ws/build/thesis_sim/install.log --install-scripts $base/lib/thesis_sim --single-version-externally-managed install_data --force
+[1.202s] running egg_info
+[1.203s] writing ../../build/thesis_sim/thesis_sim.egg-info/PKG-INFO
+[1.203s] writing dependency_links to ../../build/thesis_sim/thesis_sim.egg-info/dependency_links.txt
+[1.203s] writing entry points to ../../build/thesis_sim/thesis_sim.egg-info/entry_points.txt
+[1.203s] writing requirements to ../../build/thesis_sim/thesis_sim.egg-info/requires.txt
+[1.203s] writing top-level names to ../../build/thesis_sim/thesis_sim.egg-info/top_level.txt
+[1.204s] reading manifest file '../../build/thesis_sim/thesis_sim.egg-info/SOURCES.txt'
+[1.205s] writing manifest file '../../build/thesis_sim/thesis_sim.egg-info/SOURCES.txt'
+[1.205s] running build
+[1.205s] running build_py
+[1.206s] running install
+[1.206s] running install_lib
+[1.206s] creating /home/iamalhelo103/thesis_ws/install/thesis_sim/lib/python3.10/site-packages/thesis_sim
+[1.206s] copying /home/iamalhelo103/thesis_ws/build/thesis_sim/build/lib/thesis_sim/__init__.py -> /home/iamalhelo103/thesis_ws/install/thesis_sim/lib/python3.10/site-packages/thesis_sim
+[1.207s] byte-compiling /home/iamalhelo103/thesis_ws/install/thesis_sim/lib/python3.10/site-packages/thesis_sim/__init__.py to __init__.cpython-310.pyc
+[1.207s] running install_data
+[1.207s] copying resource/thesis_sim -> /home/iamalhelo103/thesis_ws/install/thesis_sim/share/ament_index/resource_index/packages
+[1.207s] copying package.xml -> /home/iamalhelo103/thesis_ws/install/thesis_sim/share/thesis_sim
+[1.207s] copying launch/thesis_master.launch.py -> /home/iamalhelo103/thesis_ws/install/thesis_sim/share/thesis_sim/launch
+[1.208s] running install_egg_info
+[1.209s] Copying ../../build/thesis_sim/thesis_sim.egg-info to /home/iamalhelo103/thesis_ws/install/thesis_sim/lib/python3.10/site-packages/thesis_sim-0.0.0-py3.10.egg-info
+[1.211s] running install_scripts
+[1.226s] writing list of installed files to '/home/iamalhelo103/thesis_ws/build/thesis_sim/install.log'
+[1.247s] Invoked command in '/home/iamalhelo103/thesis_ws/src/thesis_sim' returned '0': PYTHONPATH=/home/iamalhelo103/thesis_ws/build/thesis_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/iamalhelo103/thesis_ws/install/thesis_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/thesis_sim build --build-base /home/iamalhelo103/thesis_ws/build/thesis_sim/build install --record /home/iamalhelo103/thesis_ws/build/thesis_sim/install.log --install-scripts $base/lib/thesis_sim --single-version-externally-managed install_data --force

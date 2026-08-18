@@ -107,7 +107,7 @@ global_height, global_width = map_img.shape
 
 # A kernel to dilate the room mask so we capture the walls and doorway
 # 10 pixels is roughly 50cm of wall thickness (10 * 0.05)
-wall_grab_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (15, 15))
+wall_grab_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (22, 22))
 
 # Loop through every valid room label we found in Step 5
 for idx, lbl in enumerate(valid_labels):
@@ -121,7 +121,7 @@ for idx, lbl in enumerate(valid_labels):
     expanded_mask = cv2.dilate(room_mask, wall_grab_kernel, iterations=1)
     
     # 3. Create a blank grey map (205 = Unknown space in ROS)
-    submap_img = np.full_like(map_img, 205)
+    submap_img = np.full_like(map_img, 127)
     
     # 4. Copy the original map pixels ONLY where our expanded mask is white
     submap_img[expanded_mask == 255] = map_img[expanded_mask == 255]
@@ -160,7 +160,7 @@ resolution: {RESOLUTION}
 origin: [{new_origin_x:.4f}, {new_origin_y:.4f}, 0.0]
 negate: 0
 occupied_thresh: 0.65
-free_thresh: 0.25
+free_thresh: 0.196
 """
     with open(os.path.join(output_dir, yaml_filename), "w") as f:
         f.write(yaml_content)

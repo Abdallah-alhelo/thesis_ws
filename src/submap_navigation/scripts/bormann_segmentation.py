@@ -102,7 +102,7 @@ GLOBAL_ORIGIN_Y = -35.0  # Put your map's YAML origin Y here
 # ------------------------------------------------------
 
 # Create a folder to save all the submaps
-output_dir = os.path.join(script_dir, "..", "maps", "nav2_submaps_test")
+output_dir = os.path.join(script_dir, "..", "maps", "nav2_submaps")
 os.makedirs(output_dir, exist_ok=True)
 
 global_height, global_width = map_img.shape
@@ -153,7 +153,22 @@ for idx, lbl in enumerate(valid_labels):
     # 7. Save the .pgm file
     pgm_filename = f"submap_{room_id}.pgm"
     cv2.imwrite(os.path.join(output_dir, pgm_filename), cropped_submap)
+    # (Inside your extraction loop, right after you save the .yaml file)
     
+    # Calculate world coordinates in meters
+    world_x_min = GLOBAL_ORIGIN_X + (x_min * RESOLUTION)
+    world_x_max = GLOBAL_ORIGIN_X + (x_max * RESOLUTION)
+    
+    # Remember: Image Y goes down, ROS World Y goes up!
+    world_y_min = GLOBAL_ORIGIN_Y + ((global_height - y_max) * RESOLUTION)
+    world_y_max = GLOBAL_ORIGIN_Y + ((global_height - y_min) * RESOLUTION)
+
+    # Print the exact dictionary block so you can copy/paste it
+    print(f"            'submap_{room_id}': {{")
+    print(f"                'x_min': {world_x_min:.2f}, 'x_max': {world_x_max:.2f},")
+    print(f"                'y_min': {world_y_min:.2f}, 'y_max': {world_y_max:.2f},")
+    print(f"                'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_{room_id}_coordintaes.yaml'")
+    print(f"            }},")
     # 8. Save the .yaml file
     yaml_filename = f"submap_{room_id}.yaml"
     yaml_content = f"""image: {pgm_filename}

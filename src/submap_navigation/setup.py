@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+        	'map_swapper = submap_navigation.map_swapper:main'
         ],
     },
 )

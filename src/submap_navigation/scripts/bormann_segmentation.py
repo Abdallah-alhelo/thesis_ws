@@ -4,7 +4,9 @@ import os
 # ==========================================
 # 1. PARAMETERS
 # ==========================================
-MAP_PATH = "hospital_map.pgm"
+script_dir = os.path.dirname(os.path.abspath(__file__))
+MAP_PATH = os.path.join(script_dir, "..", "maps", "hospital_map.pgm")
+
 RESOLUTION = 0.05  # meters/pixel
 
 # Door width in meters to pinch shut (typically 0.8m - 1.2m)
@@ -100,7 +102,7 @@ GLOBAL_ORIGIN_Y = -35.0  # Put your map's YAML origin Y here
 # ------------------------------------------------------
 
 # Create a folder to save all the submaps
-output_dir = "nav2_submaps"
+output_dir = os.path.join(script_dir, "..", "maps", "nav2_submaps_test")
 os.makedirs(output_dir, exist_ok=True)
 
 global_height, global_width = map_img.shape

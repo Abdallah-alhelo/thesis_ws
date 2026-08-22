@@ -25,106 +25,108 @@ class MapSwapperNode(Node):
         self.zones = {
             'submap_1': {
                 'x_min': -6.20, 'x_max': -2.65,
-                'y_min': 14.75, 'y_max': 20.95,
+                'y_min': 14.2, 'y_max': 20.95,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_1.yaml'
             },
             'submap_2': {
                 'x_min': 2.85, 'x_max': 6.35,
-                'y_min': 14.60, 'y_max': 20.95,
+                'y_min': 15.1, 'y_max': 20.95,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_2.yaml'
             },
             'submap_4': {
                 'x_min': -12.50, 'x_max': -5.65,
-                'y_min': 11.65, 'y_max': 17.20,
+                'y_min': 12.0, 'y_max': 17.20,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_4.yaml'
             },
             'submap_5': {
                 'x_min': 5.85, 'x_max': 12.55,
-                'y_min': 11.60, 'y_max': 17.20,
+                'y_min': 12.2, 'y_max': 17.20,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_5.yaml'
             },
             'submap_6': {
-                'x_min': -12.50, 'x_max': -8.50,
+                'x_min': -12.50, 'x_max': -9.0,
                 'y_min': 8.25, 'y_max': 12.20,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_6.yaml'
             },
             'submap_7': {
-                'x_min': 8.65, 'x_max': 12.55,
+                'x_min': 9.4, 'x_max': 12.55,
                 'y_min': 8.30, 'y_max': 12.20,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_7.yaml'
             },
             'submap_8': {
-                'x_min': -12.50, 'x_max': -8.45,
+                'x_min': -12.50, 'x_max': -9.0,
                 'y_min': 3.75, 'y_max': 7.75,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_8.yaml'
             },
             'submap_9': {
-                'x_min': 8.60, 'x_max': 11.85,
+                'x_min': 9.4, 'x_max': 11.85,
                 'y_min': 3.75, 'y_max': 7.40,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_9.yaml'
             },
             'submap_10': {
-                'x_min': -12.50, 'x_max': -5.70,
+                'x_min': -12.50, 'x_max': -6.2,
                 'y_min': -10.25, 'y_max': 4.25,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_10.yaml'
             },
             'submap_11': {
-                'x_min': 5.85, 'x_max': 12.55,
+                'x_min': 6.85, 'x_max': 12.55,
                 'y_min': -10.25, 'y_max': 4.00,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_11.yaml'
             },
             'submap_12': {
                 'x_min': -0.15, 'x_max': 2.90,
-                'y_min': -6.30, 'y_max': -0.50,
+                'y_min': -6.30, 'y_max': -0.3,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_12.yaml'
             },
             'submap_13': {
                 'x_min': -2.70, 'x_max': 0.35,
-                'y_min': -6.35, 'y_max': -0.55,
+                'y_min': -6.35, 'y_max': -0.3,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_13.yaml'
             },
             'submap_14': {
-                'x_min': -12.50, 'x_max': -5.75,
+                'x_min': -12.50, 'x_max': -6.2,
                 'y_min': -24.20, 'y_max': -9.75,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_14.yaml'
             },
             'submap_15': {
                 'x_min': -3.30, 'x_max': 0.20,
-                'y_min': -13.25, 'y_max': -9.85,
+                'y_min': -13.25, 'y_max': -10.3,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_15.yaml'
             },
             'submap_16': {
                 'x_min': -0.15, 'x_max': 3.40,
-                'y_min': -13.25, 'y_max': -9.80,
+                'y_min': -13.25, 'y_max': -10.3,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_16.yaml'
             },
             'submap_17': {
-                'x_min': 5.80, 'x_max': 12.55,
+                'x_min': 6.80, 'x_max': 12.55,
                 'y_min': -24.25, 'y_max': -9.80,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_17.yaml'
             },
             'submap_18': {
                 'x_min': -3.70, 'x_max': 0.30,
-                'y_min': -23.25, 'y_max': -15.65,
+                'y_min': -23.25, 'y_max': -16.15,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_18.yaml'
             },
             'submap_19': {
                 'x_min': -0.20, 'x_max': 3.80,
-                'y_min': -23.25, 'y_max': -15.65,
+                'y_min': -23.25, 'y_max': -16.15,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_19.yaml'
             },
             'submap_20': {
-                'x_min': -12.50, 'x_max': -5.75,
-                'y_min': -32.70, 'y_max': -23.75,
+                'x_min': -12.50, 'x_max': -6.75,
+                'y_min': -31.70, 'y_max': -23.75,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_20.yaml'
             },
             'submap_21': {
                 'x_min': -3.65, 'x_max': 12.55,
-                'y_min': -32.70, 'y_max': -23.80,
+                'y_min': -31.70, 'y_max': -25.20,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_21.yaml'
             },
             # The corridor acts as the fallback map if the robot isn't inside any room
             'submap_3': {
+            	'x_min': -12.50, 'x_max': 12.55,
+                'y_min': -35, 'y_max': 17.85,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_3.yaml'
             }
         }
@@ -150,8 +152,8 @@ class MapSwapperNode(Node):
         target_submap = 'submap_3'  # Default to corridor
 
         for map_name, bounds in self.zones.items():
-            if map_name == 'submap_3':
-                continue # Skip the fallback map in the loop
+            #if map_name == 'submap_3':
+             #   continue # Skip the fallback map in the loop
 
             # Check if the robot's X and Y are inside this room's bounding box
             if bounds['x_min'] <= x <= bounds['x_max'] and bounds['y_min'] <= y <= bounds['y_max']:

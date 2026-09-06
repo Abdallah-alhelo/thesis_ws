@@ -74,12 +74,12 @@ class MapSwapperNode(Node):
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_11.yaml'
             },
             'submap_12': {
-                'x_min': -0.15, 'x_max': 2.90,
+                'x_min': 0.15, 'x_max': 3.3,
                 'y_min': -6.30, 'y_max': -0.3,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_12.yaml'
             },
             'submap_13': {
-                'x_min': -2.70, 'x_max': 0.35,
+                'x_min': -3.20, 'x_max': -0.2,
                 'y_min': -6.35, 'y_max': -0.3,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_13.yaml'
             },

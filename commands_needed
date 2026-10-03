@@ -3,10 +3,15 @@
  - to be able to push the files to github: git add . 
 git commit -m "text to name the edits" 
 git push 
-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
+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
 
  - to start the slam toolbox to map the map: ros2 launch slam_toolbox online_async_launch.py use_sim_time:=true
  - to save the map after the mapping is done: ros2 run nav2_map_server map_saver_cli -f ~/thesis_ws/hospital_global_map
  - to control the turtlebot using keyboard: ros2 run turtlebot3_teleop teleop_keyboard
  - to launch nav2 and the map in rviz to send nav2 goals : ros2 launch nav2_bringup bringup_launch.py use_sim_time:=True map:=/home/iamalhelo103/thesis_ws/hospital_map.yaml
 							   rviz2 -d $(ros2 pkg prefix nav2_bringup)/share/nav2_bringup/rviz/nav2_default_view.rviz --ros-args -p use_sim_time:=true
+							   
+- run the map swapper : ros2 launch thesis_sim thesis_master.launch.py 
+			ros2 launch nav2_bringup bringup_launch.py use_sim_time:=True map:=/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_3.yaml
+			rviz2 -d $(ros2 pkg prefix nav2_bringup)/share/nav2_bringup/rviz/nav2_default_view.rviz --ros-args -p use_sim_time:=true
+			ros2 run submap_navigation map_swapper 

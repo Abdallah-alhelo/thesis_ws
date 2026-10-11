@@ -12,8 +12,8 @@ class MapSwapperNode(Node):
         self.tf_buffer = Buffer()
         self.tf_listener = TransformListener(self.tf_buffer, self)
 
-        # 2. Service Client to swap the map
-        self.client = self.create_client(LoadMap, '/map_server/load_map')
+        # 2. Service Client to swap the local map 
+        self.client = self.create_client(LoadMap, '/local_submap_server/load_map')
         while not self.client.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('Nav2 Map Server not available, waiting...')
 
@@ -25,17 +25,17 @@ class MapSwapperNode(Node):
         self.zones = {
             'submap_1': {
                 'x_min': -6.20, 'x_max': -2.65,
-                'y_min': 14.2, 'y_max': 20.95,
+                'y_min': 15.5, 'y_max': 20.95,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_1.yaml'
             },
             'submap_2': {
                 'x_min': 2.85, 'x_max': 6.35,
-                'y_min': 15.1, 'y_max': 20.95,
+                'y_min': 15.5, 'y_max': 20.95,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_2.yaml'
             },
             'submap_4': {
                 'x_min': -12.50, 'x_max': -5.65,
-                'y_min': 12.0, 'y_max': 17.20,
+                'y_min': 12.4, 'y_max': 17.20,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_4.yaml'
             },
             'submap_5': {
@@ -44,7 +44,7 @@ class MapSwapperNode(Node):
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_5.yaml'
             },
             'submap_6': {
-                'x_min': -12.50, 'x_max': -9.0,
+                'x_min': -12.50, 'x_max': -9.5,
                 'y_min': 8.25, 'y_max': 12.20,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_6.yaml'
             },
@@ -54,7 +54,7 @@ class MapSwapperNode(Node):
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_7.yaml'
             },
             'submap_8': {
-                'x_min': -12.50, 'x_max': -9.0,
+                'x_min': -12.50, 'x_max': -9.4,
                 'y_min': 3.75, 'y_max': 7.75,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_8.yaml'
             },
@@ -64,7 +64,7 @@ class MapSwapperNode(Node):
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_9.yaml'
             },
             'submap_10': {
-                'x_min': -12.50, 'x_max': -6.2,
+                'x_min': -12.50, 'x_max': -6.9,
                 'y_min': -10.25, 'y_max': 4.25,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_10.yaml'
             },
@@ -84,7 +84,7 @@ class MapSwapperNode(Node):
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_13.yaml'
             },
             'submap_14': {
-                'x_min': -12.50, 'x_max': -6.2,
+                'x_min': -12.50, 'x_max': -6.9,
                 'y_min': -24.20, 'y_max': -9.75,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_14.yaml'
             },
@@ -105,12 +105,12 @@ class MapSwapperNode(Node):
             },
             'submap_18': {
                 'x_min': -3.70, 'x_max': 0.30,
-                'y_min': -23.25, 'y_max': -16.15,
+                'y_min': -23.25, 'y_max': -16.4,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_18.yaml'
             },
             'submap_19': {
                 'x_min': -0.20, 'x_max': 3.80,
-                'y_min': -23.25, 'y_max': -16.15,
+                'y_min': -23.25, 'y_max': -16.4,
                 'yaml': '/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_19.yaml'
             },
             'submap_20': {

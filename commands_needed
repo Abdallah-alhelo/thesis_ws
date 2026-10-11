@@ -15,3 +15,12 @@ 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
 			ros2 launch nav2_bringup bringup_launch.py use_sim_time:=True map:=/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/nav2_submaps/submap_3.yaml
 			rviz2 -d $(ros2 pkg prefix nav2_bringup)/share/nav2_bringup/rviz/nav2_default_view.rviz --ros-args -p use_sim_time:=true
 			ros2 run submap_navigation map_swapper 
+			
+			
+ * run the map swapper with both local and global maps: 
+- ros2 launch thesis_sim thesis_master.launch.py
+- ros2 launch nav2_bringup bringup_launch.py map:=/home/iamalhelo103/thesis_ws/src/submap_navigation/maps/hospital_map_low_res.yaml params_file:=/home/iamalhelo103/thesis_ws/src/submap_navigation/config/custom_nav2_params.yaml use_sim_time:=true
+- ros2 launch submap_navigation local_map_server_launch.py
+- rviz2 -d /home/iamalhelo103/thesis_ws/src/submap_navigation/config/rviz_view.rviz --ros-args -p use_sim_time:=true
+- ros2 run submap_navigation map_swapper use_sim_time:=true
+

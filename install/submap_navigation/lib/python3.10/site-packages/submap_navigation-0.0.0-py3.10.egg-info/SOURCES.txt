@@ -8,6 +8,7 @@ setup.py
 ../../build/submap_navigation/submap_navigation.egg-info/requires.txt
 ../../build/submap_navigation/submap_navigation.egg-info/top_level.txt
 ../../build/submap_navigation/submap_navigation.egg-info/zip-safe
+launch/local_map_server_launch.py
 resource/submap_navigation
 submap_navigation/__init__.py
 submap_navigation/map_swapper.py

@@ -1,0 +1,63 @@
+[0.032s] Invoking command in '/home/iamalhelo103/thesis_ws/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iamalhelo103/thesis_ws/install/thesis_sim:/home/iamalhelo103/thesis_ws/install/submap_navigation:/opt/ros/humble /usr/bin/cmake --build /home/iamalhelo103/thesis_ws/build/multirobot_map_merge -- -j16 -l16
+[0.589s] [  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.590s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.590s] [ 25%] [32mBuilding CXX object CMakeFiles/combine_grids.dir/src/combine_grids/grid_compositor.cpp.o[0m
+[0.590s] [ 33%] [32mBuilding CXX object CMakeFiles/combine_grids.dir/src/combine_grids/grid_warper.cpp.o[0m
+[0.590s] [ 41%] [32mBuilding CXX object CMakeFiles/combine_grids.dir/src/combine_grids/merging_pipeline.cpp.o[0m
+[2.247s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.322s] [ 50%] Built target gtest_main
+[5.652s] [ 58%] [32m[1mLinking CXX static library libgtest.a[0m
+[5.766s] [ 58%] Built target gtest
+[6.864s] [ 66%] [32m[1mLinking CXX static library libcombine_grids.a[0m
+[6.938s] [ 66%] Built target combine_grids
+[6.989s] [ 75%] [32mBuilding CXX object CMakeFiles/test_merging_pipeline.dir/test/test_merging_pipeline.cpp.o[0m
+[7.031s] [ 83%] [32mBuilding CXX object CMakeFiles/map_merge.dir/src/map_merge.cpp.o[0m
+[13.690s] [ 91%] [32m[1mLinking CXX executable test_merging_pipeline[0m
+[14.668s] [ 91%] Built target test_merging_pipeline
+[23.686s] [100%] [32m[1mLinking CXX executable map_merge[0m
+[24.871s] [100%] Built target map_merge
+[24.886s] Invoked command in '/home/iamalhelo103/thesis_ws/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iamalhelo103/thesis_ws/install/thesis_sim:/home/iamalhelo103/thesis_ws/install/submap_navigation:/opt/ros/humble /usr/bin/cmake --build /home/iamalhelo103/thesis_ws/build/multirobot_map_merge -- -j16 -l16
+[24.888s] Invoking command in '/home/iamalhelo103/thesis_ws/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iamalhelo103/thesis_ws/install/thesis_sim:/home/iamalhelo103/thesis_ws/install/submap_navigation:/opt/ros/humble /usr/bin/cmake --install /home/iamalhelo103/thesis_ws/build/multirobot_map_merge
+[24.897s] -- Install configuration: ""
+[24.897s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/include/map_merge/
+[24.898s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/include/map_merge//map_merge.h
+[24.898s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/include/map_merge//ros1_names.hpp
+[24.898s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch
+[24.898s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/from_map_server.launch.py
+[24.898s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/map_merge.launch.py
+[24.898s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/map_merge.rviz
+[24.898s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation
+[24.899s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/multi_tb3_simulation_launch.py
+[24.899s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/bringup_launch.py
+[24.899s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/config
+[24.899s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/config/nav2_multirobot_params_2.yaml
+[24.899s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/config/nav2_multirobot_params_1.yaml
+[24.899s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/tb3_simulation_launch.py
+[24.899s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/slam_toolbox.py
+[24.899s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/worlds
+[24.899s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/worlds/world_only.model
+[24.899s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/config
+[24.900s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/config/params.yaml
+[24.900s] -- Installing: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/lib/libcombine_grids.a
+[24.903s] -- Installing: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/lib/multirobot_map_merge/map_merge
+[24.909s] -- Set runtime path of "/home/iamalhelo103/thesis_ws/install/multirobot_map_merge/lib/multirobot_map_merge/map_merge" to ""
+[24.910s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/environment/library_path.sh
+[24.910s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/environment/library_path.dsv
+[24.910s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/ament_index/resource_index/package_run_dependencies/multirobot_map_merge
+[24.910s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/ament_index/resource_index/parent_prefix_path/multirobot_map_merge
+[24.910s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/environment/ament_prefix_path.sh
+[24.910s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/environment/ament_prefix_path.dsv
+[24.910s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/environment/path.sh
+[24.910s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/environment/path.dsv
+[24.910s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/local_setup.bash
+[24.910s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/local_setup.sh
+[24.910s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/local_setup.zsh
+[24.910s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/local_setup.dsv
+[24.910s] -- Installing: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.dsv
+[24.911s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/ament_index/resource_index/packages/multirobot_map_merge
+[24.911s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.911s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/cmake/ament_cmake_export_libraries-extras.cmake
+[24.911s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/cmake/multirobot_map_mergeConfig.cmake
+[24.911s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/cmake/multirobot_map_mergeConfig-version.cmake
+[24.911s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.xml
+[24.915s] Invoked command in '/home/iamalhelo103/thesis_ws/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iamalhelo103/thesis_ws/install/thesis_sim:/home/iamalhelo103/thesis_ws/install/submap_navigation:/opt/ros/humble /usr/bin/cmake --install /home/iamalhelo103/thesis_ws/build/multirobot_map_merge

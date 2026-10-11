@@ -1,0 +1,48 @@
+[0.022s] Invoking command in '/home/iamalhelo103/thesis_ws/build/explore_lite': CMAKE_PREFIX_PATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs:/home/iamalhelo103/thesis_ws/install/multirobot_map_merge:/home/iamalhelo103/thesis_ws/install/explore_lite:/home/iamalhelo103/thesis_ws/install/aws_robomaker_hospital_world:/home/iamalhelo103/thesis_ws/install/thesis_sim:/home/iamalhelo103/thesis_ws/install/submap_navigation:/opt/ros/humble LD_LIBRARY_PATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs/lib:/home/iamalhelo103/thesis_ws/install/multirobot_map_merge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/iamalhelo103/thesis_ws/build/explore_lite -- -j16 -l16
+[0.140s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.142s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.180s] [ 30%] [32mBuilding CXX object CMakeFiles/explore.dir/src/costmap_client.cpp.o[0m
+[0.187s] [ 40%] [32mBuilding CXX object CMakeFiles/explore.dir/src/frontier_search.cpp.o[0m
+[0.189s] [ 50%] [32mBuilding CXX object CMakeFiles/explore.dir/src/explore.cpp.o[0m
+[1.247s] [ 60%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.306s] [ 60%] Built target gtest_main
+[4.304s] [ 70%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.412s] [ 70%] Built target gtest
+[4.451s] [ 80%] [32mBuilding CXX object CMakeFiles/test_explore.dir/test/test_explore.cpp.o[0m
+[5.553s] [ 90%] [32m[1mLinking CXX executable test_explore[0m
+[5.813s] [ 90%] Built target test_explore
+[17.133s] [100%] [32m[1mLinking CXX executable explore[0m
+[18.697s] [100%] Built target explore
+[18.712s] Invoked command in '/home/iamalhelo103/thesis_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs:/home/iamalhelo103/thesis_ws/install/multirobot_map_merge:/home/iamalhelo103/thesis_ws/install/explore_lite:/home/iamalhelo103/thesis_ws/install/aws_robomaker_hospital_world:/home/iamalhelo103/thesis_ws/install/thesis_sim:/home/iamalhelo103/thesis_ws/install/submap_navigation:/opt/ros/humble LD_LIBRARY_PATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs/lib:/home/iamalhelo103/thesis_ws/install/multirobot_map_merge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/iamalhelo103/thesis_ws/build/explore_lite -- -j16 -l16
+[18.715s] Invoking command in '/home/iamalhelo103/thesis_ws/build/explore_lite': CMAKE_PREFIX_PATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs:/home/iamalhelo103/thesis_ws/install/multirobot_map_merge:/home/iamalhelo103/thesis_ws/install/explore_lite:/home/iamalhelo103/thesis_ws/install/aws_robomaker_hospital_world:/home/iamalhelo103/thesis_ws/install/thesis_sim:/home/iamalhelo103/thesis_ws/install/submap_navigation:/opt/ros/humble LD_LIBRARY_PATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs/lib:/home/iamalhelo103/thesis_ws/install/multirobot_map_merge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/iamalhelo103/thesis_ws/build/explore_lite
+[18.724s] -- Install configuration: ""
+[18.725s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/explore_lite/include/explore/
+[18.725s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/explore_lite/include/explore//costmap_client.h
+[18.725s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/explore_lite/include/explore//explore.h
+[18.725s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/explore_lite/include/explore//costmap_tools.h
+[18.725s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/explore_lite/include/explore//frontier_search.h
+[18.725s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/config
+[18.725s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/config/params.yaml
+[18.725s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/config/params_costmap.yaml
+[18.725s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/launch
+[18.726s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/launch/explore.launch.py
+[18.727s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/lib/explore_lite/explore
+[18.739s] -- Set runtime path of "/home/iamalhelo103/thesis_ws/install/explore_lite/lib/explore_lite/explore" to ""
+[18.739s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite
+[18.739s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite
+[18.739s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh
+[18.739s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv
+[18.739s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/environment/path.sh
+[18.739s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/environment/path.dsv
+[18.739s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/local_setup.bash
+[18.739s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/local_setup.sh
+[18.739s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/local_setup.zsh
+[18.740s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/local_setup.dsv
+[18.740s] -- Installing: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/package.dsv
+[18.740s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/explore_lite/share/ament_index/resource_index/packages/explore_lite
+[18.740s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.740s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.740s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake
+[18.740s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake
+[18.740s] -- Up-to-date: /home/iamalhelo103/thesis_ws/install/explore_lite/share/explore_lite/package.xml
+[18.744s] Invoked command in '/home/iamalhelo103/thesis_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs:/home/iamalhelo103/thesis_ws/install/multirobot_map_merge:/home/iamalhelo103/thesis_ws/install/explore_lite:/home/iamalhelo103/thesis_ws/install/aws_robomaker_hospital_world:/home/iamalhelo103/thesis_ws/install/thesis_sim:/home/iamalhelo103/thesis_ws/install/submap_navigation:/opt/ros/humble LD_LIBRARY_PATH=/home/iamalhelo103/thesis_ws/install/explore_lite_msgs/lib:/home/iamalhelo103/thesis_ws/install/multirobot_map_merge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/iamalhelo103/thesis_ws/build/explore_lite

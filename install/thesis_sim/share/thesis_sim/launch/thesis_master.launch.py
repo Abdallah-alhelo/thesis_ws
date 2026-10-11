@@ -4,7 +4,7 @@ from launch import LaunchDescription
 from launch.actions import IncludeLaunchDescription, ExecuteProcess, SetEnvironmentVariable
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.actions import Node
-
+from launch.actions import IncludeLaunchDescription, ExecuteProcess, SetEnvironmentVariable, TimerAction
 def generate_launch_description():
     # 1. Combine BOTH explicit model paths so nothing is invisible!
     home_dir = os.environ['HOME']
@@ -61,16 +61,32 @@ def generate_launch_description():
             '-x', '0.0',
             '-y', '14.4',
             '-z', '0.5', # Bumped to 0.5 to guarantee a safe drop above the floor
-            '-Y', '-1.6'
+            '-Y', '-1.6',
+            '-timeout', '120.0' # Added timeout argument here
         ],
+        parameters=[{'use_sim_time': True}],
         output='screen',
+    )
+    # Add a 15-second delay before triggering the spawn
+    delayed_tb3_spawn = TimerAction(
+        period=15.0,
+        actions=[tb3_spawn]
     )
 
     return LaunchDescription([
         set_model_path,
         set_tb3_model,
         aws_hospital_launch,
-        gzclient,
+        gzclient,    
         tb3_rsp,
-        tb3_spawn
+        delayed_tb3_spawn
     ])
+    
+    
+    
+    
+    
+    
+    
+    
+   
